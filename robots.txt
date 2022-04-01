@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml.gz
+Sitemap: https://martinwheeler.github.io/programming-notes/sitemap.xml.gz
