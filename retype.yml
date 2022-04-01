@@ -3,5 +3,11 @@ output: .retype
 url: martinwheeler.github.io/programming-notes/
 branding:
   title: Programming Notes
+links:
+- text: Welcome
+  icon: home
+  link: /
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  links:
+  - text: About
+    link: /about
