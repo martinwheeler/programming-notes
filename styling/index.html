@@ -28,11 +28,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/programming-notes/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/programming-notes/resources/css/retype.css?v=2.2.702167000798" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/programming-notes/resources/css/retype.css?v=2.2.702168974937" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/programming-notes/resources/js/config.js?v=2.2.702167000798" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/programming-notes/resources/js/config.js?v=2.2.702168974937" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/programming-notes/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/programming-notes/resources/js/lunr.js?v=2.2.702167000798" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/programming-notes/resources/js/lunr.js?v=2.2.702168974937" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -47,9 +47,9 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="/programming-notes/" class="flex items-center leading-snug text-2xl">
-                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Project Name</span>
-                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
+                        <a id="docs-site-logo" href="/programming-notes/" class="flex items-center leading-snug text-xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Programming Notes</span>
+                        </a>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -59,9 +59,6 @@
                     <!-- Top Nav -->
                     <nav class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
-                            <li class="md:mr-6">
-                                <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://retype.com/guides/getting-started/">Getting Started</a>
-                            </li>
                         </ul>
                     </nav>
         
@@ -133,16 +130,6 @@
             <doc-sidebar v-cloak>
                 <template #sidebar-footer>
                     <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
-            
-                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
-                            <nav>
-                                <ul class="flex flex-wrap justify-center items-center">
-                                    <li class="mr-6">
-                                        <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
             
                         <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
                             <span class="text-xs whitespace-nowrap">Powered by</span>
