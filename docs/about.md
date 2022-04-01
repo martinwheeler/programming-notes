@@ -1,5 +1,6 @@
 ---
 icon: question
+layout: central
 order: -1
 ---
 
